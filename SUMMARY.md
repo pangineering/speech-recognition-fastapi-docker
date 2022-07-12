@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Speech-recognition-fastapi-docker](README.md)
 * [Quick Start](quick-start.md)
 
 ## Reference
