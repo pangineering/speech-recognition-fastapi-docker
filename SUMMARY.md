@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Speech-recognition-fastapi-docker](README.md)
-* [Quick Start](quick-start.md)
+* [Installation](quick-start.md)
+* [Docker](docker.md)
 
 ## Reference
 

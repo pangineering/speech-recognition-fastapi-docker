@@ -1,38 +1,65 @@
-# Quick Start
+---
+description: How to install
+---
 
-{% hint style="info" %}
-**Good to know:** A quick start guide can be good to help folks get up and running with your API in a few steps. Some people prefer diving in with the basics rather than meticulously reading every page of documentation!
-{% endhint %}
+# Installation
 
-## Get your API keys
+## List of Libraries in the requirement.txt
 
-Your API requests are authenticated using API keys. Any request that doesn't include an API key will return an error.
-
-You can generate an API key from your Dashboard at any time.
+```
+anyio==3.6.1
+certifi==2022.6.15
+charset-normalizer==2.1.0
+click==8.1.3
+cycler==0.11.0
+fastapi==0.78.0
+filelock==3.7.1
+fonttools==4.33.3
+h11==0.13.0
+httptools==0.4.0
+huggingface-hub==0.8.1
+idna==3.3
+kiwisolver==1.4.3
+matplotlib==3.5.2
+numpy==1.23.0
+packaging==21.3
+Pillow==9.2.0
+pydantic==1.9.1
+pyparsing==3.0.9
+python-dateutil==2.8.2
+python-dotenv==0.20.0
+python-multipart==0.0.5
+PyYAML==6.0
+regex==2022.6.2
+requests==2.28.1
+six==1.16.0
+sniffio==1.2.0
+SpeechRecognition==3.8.1
+starlette==0.19.1
+tokenizers==0.12.1
+torch==1.12.0
+torchaudio==0.12.0
+torchvision==0.13.0
+tqdm==4.64.0
+transformers==4.20.1
+typing_extensions==4.3.0
+urllib3==1.26.9
+uvicorn==0.18.2
+uvloop==0.16.0
+watchfiles==0.15.0
+websockets==10.3
+```
 
 ## Install the library
 
-The best way to interact with our API is to use one of our official libraries:
-
 {% tabs %}
-{% tab title="Node" %}
-```
-# Install via NPM
-npm install --save my-api
-```
-{% endtab %}
-
 {% tab title="Python" %}
 ```
 # Install via pip
-pip install --upgrade myapi
+pip install -r requirement.txt
 ```
 {% endtab %}
 {% endtabs %}
-
-{% hint style="info" %}
-**Good to know:** Using tabs to separate out different languages is a great way to present technical examples or code documentation without cramming your docs with extra sections or pages per language.
-{% endhint %}
 
 ## Make your first request
 
