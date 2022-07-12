@@ -4,9 +4,9 @@ description: Project Overview
 
 # Speech-recognition-fastapi-docker
 
-## Welcome to MyAPI
+## Tech Stack
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=fff\&style=flat-square) ![FastAPI Badge](https://img.shields.io/badge/FastAPI-009688?logo=fastapi\&logoColor=fff\&style=flat-square) ![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch\&logoColor=fff\&style=flat-square) ![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=fff\&style=flat)
 
 ## Want to jump right in?
 
